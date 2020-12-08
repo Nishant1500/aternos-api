@@ -1,3 +1,5 @@
+'use strict';
+
 const http = require('axios');
 const event = require('events');
 
