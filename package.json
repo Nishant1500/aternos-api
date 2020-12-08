@@ -1,0 +1,22 @@
+{
+  "name": "aternos-api",
+  "version": "1.0.0",
+  "description": "An external aternos api that lets your manage your server from nodejs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canfam/aternos-api.git"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "pig#0001",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/canfam/aternos-api/issues"
+  },
+  "homepage": "https://github.com/canfam/aternos-api#readme"
+}
