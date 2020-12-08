@@ -1,4 +1,5 @@
 const http = require('axios');
+const event = require('events');
 
 module.exports = class AternosAPI {
     /**
@@ -8,10 +9,12 @@ module.exports = class AternosAPI {
     constructor(headers, token) {
         this.headers = headers
         this.token = token
+        this.event = new event.EventEmitter()
     }
     /**
      * @param {?string} path The URL request path 
      * @param {?object} data A table of the elements "headers" (array) and "params" (array)
+     * @returns {?string} The response of the request made
      */
 
     makeRequest(path, data) {
@@ -22,5 +25,14 @@ module.exports = class AternosAPI {
         }).then(response => {
             return response
         })
+    }
+
+    /**
+     * @param {?string} event
+     * @param {?function (returned values) { }} callback
+     */
+
+    on(event, callback) {
+        
     }
 }
