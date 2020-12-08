@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/canfam/aternos-api/issues"
   },
-  "homepage": "https://github.com/canfam/aternos-api#readme"
+  "homepage": "https://github.com/canfam/aternos-api#readme",
+  "dependencies": {
+    "axios": "^0.21.0"
+  }
 }
