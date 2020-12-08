@@ -4,7 +4,7 @@
   "description": "An external aternos api that lets your manage your server from nodejs.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo No test specified. && exit 1"
   },
   "repository": {
     "type": "git",
